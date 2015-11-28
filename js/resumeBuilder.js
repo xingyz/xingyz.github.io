@@ -1,6 +1,7 @@
 /*
 This is empty on purpose! Your code to build the resume will go here.
  */
+<<<<<<< HEAD
 var skills = ["Python","C++","Java","Web development","Data Science"];
 var bio = {"name":"Xingyu Zhou",
            "role":"Software Developer & Graduate Student In CS",

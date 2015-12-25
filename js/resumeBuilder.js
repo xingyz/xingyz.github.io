@@ -14,7 +14,7 @@ var bio = {"name":"Xingyu Zhou",
            "role":"Software Developer & Graduate Student In CS",
            "contacts":{
                 "email":"ryan.zxy@gmail.com",
-                "github":"https://github.com/perceptron-XYZ",
+                "github":"https://github.com/xingyz",
                 "mobile":"613-263-8767",
                 "location":"Ottawa, Canada<span style='color:#E05151'>||</span>Chengdu, China",
            },

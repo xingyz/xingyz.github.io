@@ -26,7 +26,7 @@ var HTMLlocation = '<li class="flex-item"><span class="orange-text">location</sp
 var HTMLbioPic = '<img src="%data%" class="biopic">';
 var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';
 
-var HTMLskillsStart = '<h3 id="skills-h3">Skills at a Glance:</h3><ul id="skills" class="flex-box"></ul>';
+var HTMLskillsStart = '<h3 id="skills-h3">My Skills Summary:</h3><ul id="skills" class="flex-box"></ul>';
 var HTMLskills = '<li class="flex-item"><span class="white-text">%data%</span></li>';
 
 var HTMLworkStart = '<div class="work-entry"></div>';
@@ -47,8 +47,11 @@ var HTMLschoolName = '<a href="#">%data%';
 var HTMLschoolDegree = ' -- %data%</a>';
 var HTMLschoolDates = '<div class="date-text">%data%</div>';
 var HTMLschoolLocation = '<div class="location-text">%data%</div>';
-var HTMLschoolMajor = '<em><br>Major: %data%</em>';
-var HTMLschoolMinor = '<em><br>Minor: %data%</em>';
+var HTMLschoolMajor = '<br>Major: %data%';
+var HTMLschoolMinor = '<br>Minor: %data%';
+var HTMLschoolGPA = '<br>GPA: %data%';
+var HTMLschoolAwardsStart = '<div>Awards:<ul class="awards"></ul></div>'
+var HTMLschoolAward = '<li>%data%</li>'
 
 var HTMLonlineClasses = '<h3>Online Classes</h3>';
 var HTMLonlineTitle = '<a href="#">%data%';
@@ -139,6 +142,7 @@ function initializeMap() {
     // the locations array
     for (var job in work.jobs) {
       locations.push(work.jobs[job].location);
+      //locations.push("Chengdu,China");
     }
 
     return locations;

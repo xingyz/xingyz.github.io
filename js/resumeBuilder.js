@@ -13,7 +13,7 @@ var skills = [
 var bio = {"name":"Xingyu Zhou",
            "role":"Software Developer & Graduate Student In CS",
            "contacts":{
-                "email":"RYAN.ZXY@GMAIL.COM",
+                "email":"ryan.zxy@gmail.com",
                 "github":"https://github.com/perceptron-XYZ",
                 "mobile":"613-263-8767",
                 "location":"Ottawa, Ontario, Canada",

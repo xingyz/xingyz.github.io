@@ -2,10 +2,10 @@
 This is empty on purpose! Your code to build the resume will go here.
  */
 var skills = [
-              "Java           | TA and academic experience; Certified Java programmer; Web Application, JSP, Servlet, Web Services(JAX-RS).",
-              "Python       | TA and industry experience; Data Science, Web Application, Flask, Pylons, SQLAlchemy, Docopt.",
+              "Java           | Certified Java programmer; Web Application, JSP, Servlet, Web Services(JAX-RS).",
+              "Python       | Industry and tutoring experience; Data Science, Web Application, Flask, Pylons, SQLAlchemy, Docopt.",
               "Javascript | Industry experience; Web application, jQuery, angularjs, node.js.",
-              "C++             | Extensive academic experience; Multithreads/multicore, Information Retrival, Data Comm/Socket.",
+              "C++             | Many school projects; Multithreads/multicore, Information Retrival, Data Comm/Socket.",
               "Famliar with full stack development, from frontend to script automation in Bash.",
               "Good Knowledge of data structures, algorithms, design patterns and OOP design.",
               "Good Knowledge of networking basics and data science fundamentals.",
@@ -16,7 +16,7 @@ var bio = {"name":"Xingyu Zhou",
                 "email":"ryan.zxy@gmail.com",
                 "github":"https://github.com/perceptron-XYZ",
                 "mobile":"613-263-8767",
-                "location":"Ottawa, Ontario, Canada",
+                "location":"Ottawa, Canada<span style='color:#E05151'>||</span>Chengdu, China",
            },
            "welcome_message":"It is best to learn wisdom by the experience of others",
            "skills":skills,

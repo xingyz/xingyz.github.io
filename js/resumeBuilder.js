@@ -2,13 +2,12 @@
 This is empty on purpose! Your code to build the resume will go here.
  */
 var skills = [
-              "Java           | Certified Java programmer; Web Application, JSP, Servlet, Web Services(JAX-RS).",
-              "Python       | Industry and tutoring experience; Data Science, Web Application, Flask, Pylons, SQLAlchemy, Docopt.",
-              "Javascript | Industry experience; Web application, jQuery, angularjs, node.js.",
-              "C++             | Many school projects; Multithreads/multicore, Information Retrival, Data Comm/Socket.",
-              "Famliar with full stack development, from frontend to script automation in Bash.",
-              "Good Knowledge of data structures, algorithms, design patterns and OOP design.",
-              "Good Knowledge of networking basics and data science fundamentals.",
+              "Java                  Certified Java programmer | web application | web services | desktop app | web scraping  ",
+              "Python              Industry experience | web application | data analysis | commandline tool | api",
+              "Javascript        Industry experience | web application | jQuery| angularjs | node.js",
+              "C++                    Academic projects | multithreads/multicore | information retrival | data communication",
+              "Database          SQL | ORM | MySQL | mongodb",
+              "Knowledge       Data Structures | OOP Design Patterns | Testing | Computer Networks | Data Science",
             ];
 var bio = {"name":"Xingyu Zhou",
            "role":"Software Developer & Graduate Student In CS",
@@ -73,6 +72,33 @@ var education = {"schools":[
                   "date":""
                 }]
                };
+ var projects = {
+               	"projects": [
+               		{
+               			"title": "Google Play App Crawling & Analysis Tool",
+               			"datesWorked": "January 2014 - April 2014",
+               			"description": "Developed a tool to scrape app info from website, exports results to RDF and displays it in GUI. "+
+                                   "JSoup for scraping, Jena for RDF creation, JavaFX for GUI"
+               			"images": ["images/fry.jpg"],
+               			"url": ""
+               		},
+               		{
+               			"title": "My Command Line Tool",
+               			"datesWorked": "October 2015",
+               			"description": "Created a cmd tool that supports multiple functions, such as news, weather to kill my time without opening browser. Expect to add more functions.. ".
+               			"images": ["images/fry.jpg"],
+               			"url": ""
+               		},
+               		{
+               			"title": "Flask-theButton",
+               			"datesWorked": "September 2015",
+               			"description": "Created a small web app when I learnt Flask Framework. It registers " +
+                                  "user's click time into database using Sqlalchemy, displays the most up to date info across all browsers using Socketio. "
+               			"images": ["images/fry.jpg"],
+               			"url": ""
+               		}
+               	]
+ };
 
 var formattedName = HTMLheaderName.replace("%data%",bio.name);
 var formattedRole = HTMLheaderRole.replace("%data%",bio.role);
@@ -154,4 +180,30 @@ education.display = function(){
 
 displayWork();
 education.display();
+
+projects.display = function() {
+	if(projects.projects.length > 0) {
+		for(i in projects.projects) {
+			$("#projects").append(HTMLprojectStart);
+
+			var formattedProjectTitle = HTMLprojectTitle.replace("%data%", projects.projects[i].title).replace("#", projects.projects[i].url);
+			var formattedProjectDates = HTMLprojectDates.replace("%data%", projects.projects[i].datesWorked);
+			var formattedProjectDescription = HTMLprojectDescription.replace("%data%", projects.projects[i].description);
+
+			$(".project-entry:last").append(formattedProjectTitle);
+			$(".project-entry:last").append(formattedProjectDates);
+			$(".project-entry:last").append(formattedProjectDescription);
+
+			for(img in projects.projects[i].images) {
+				var formattedProjectImage = HTMLprojectImage.replace("%data%", projects.projects[i].images[img]);
+				$(".project-entry:last").append(formattedProjectImage);
+			}
+
+
+		}
+	}
+}
+
+projects.display();
+
 $("#mapDiv").append(googleMap);

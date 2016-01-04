@@ -78,14 +78,14 @@ var education = {"schools":[
                			"title": "Google Play App Crawling & Analysis Tool",
                			"datesWorked": "January 2014 - April 2014",
                			"description": "Developed a tool to scrape app info from website, exports results to RDF and displays it in GUI. "+
-                                   "JSoup for scraping, Jena for RDF creation, JavaFX for GUI"
+                                   "JSoup for scraping, Jena for RDF creation, JavaFX for GUI",
                			"images": ["images/fry.jpg"],
                			"url": ""
                		},
                		{
                			"title": "My Command Line Tool",
                			"datesWorked": "October 2015",
-               			"description": "Created a cmd tool that supports multiple functions, such as news, weather to kill my time without opening browser. Expect to add more functions.. ".
+               			"description": "Created a cmd tool that supports multiple functions, such as news, weather to kill my time without opening browser. Expect to add more functions.. ",
                			"images": ["images/fry.jpg"],
                			"url": ""
                		},
@@ -93,7 +93,7 @@ var education = {"schools":[
                			"title": "Flask-theButton",
                			"datesWorked": "September 2015",
                			"description": "Created a small web app when I learnt Flask Framework. It registers " +
-                                  "user's click time into database using Sqlalchemy, displays the most up to date info across all browsers using Socketio. "
+                                  "user's click time into database using Sqlalchemy, displays the most up to date info across all browsers using Socketio. ",
                			"images": ["images/fry.jpg"],
                			"url": ""
                		}

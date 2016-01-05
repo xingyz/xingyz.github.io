@@ -14,7 +14,7 @@ var bio = {"name":"Xingyu Zhou",
            "contacts":{
                 "email":"ryan.zxy@gmail.com",
                 "github":"https://github.com/xingyz",
-                "mobile":"613-263-8767",
+                "linkedin": '<a href="https://ca.linkedin.com/pub/xingyu-ryan-zhou/46/809/46b" style="text-decoration:none;display:inline"><span style="font: 90% Arial,sans-serif; font-weight:bolder; color:#ffffff;">Xingyu\'s Profile</span></a>',
                 "location":"Ottawa, Canada<span style='color:#E05151'>||</span>Chengdu, China",
            },
            "welcome_message":"It is best to learn wisdom by the experience of others",
@@ -107,7 +107,7 @@ var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcome_message);
 var formattedContactInfo = [];
 formattedContactInfo.push(HTMLemail.replace("%data%", bio.contacts.email));
 formattedContactInfo.push(HTMLgithub.replace("%data%", bio.contacts.github));
-formattedContactInfo.push(HTMLmobile.replace("%data%", bio.contacts.mobile));
+formattedContactInfo.push(HTMLlinkedin.replace("%data%", bio.contacts.linkedin));
 formattedContactInfo.push(HTMLlocation.replace("%data%", bio.contacts.location));
 
 $("#header").prepend(formattedRole);

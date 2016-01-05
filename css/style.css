@@ -94,6 +94,10 @@ a {
   display: block;
 }
 
+#inline{
+  text-decoration:none;
+  display:inline;
+}
 .welcome-message {
   font-style: italic;
   font-size: 18px;
@@ -146,6 +150,7 @@ a {
 /* TODO: Replace with image later */
 #header {
   background-color: #75a3d1;
+  color:#FFFFFF;
 }
 
 .flex-box {

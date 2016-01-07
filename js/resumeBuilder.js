@@ -30,17 +30,17 @@ var work = {"jobs":[
               "dates":"2015.10-2015.12",
               "description":"Datacats uses Python and Docker to reduce the complexivity for the development of Open Data "+
               "Platforms in CKAN. I improved several development tools and libraries, such as an API to "+
-              "do bulk data download/upload. I also contributed to the upgrade of data catalogues for city of Surrey "+
-              "and province of British Columbia."
+              "do bulk data download/upload. I also contributed to the upgrade of data catalogues for <a style='display:inline' href='http://data.surrey.ca/'>City of Surrey </a>"+
+              "and <a style='display:inline' href='http://catalogue.data.gov.bc.ca/dataset?download_audience=Public'>Province of British Columbia</a>."
             },
             {
               "employer":"Wordlink",
-              "title":"Intern-Software Development",
+              "title":"Software Development Intern",
               "location":"Montreal, Quebec",
               "dates":"2014.07-2014.10",
               "description":"I independently developed the frontend and backend frameworks of the Restful news feed app "+
               "of Wordlink, which was selected as part of Cossette Montreal's incubator lab. The stack includes "+
-              "Javascript, node.js, angular.js, hapi.js",
+              "node.js, hapi framework, angular.js, bootstrap, masonry",
             }
 ]};
 var education = {"schools":[
@@ -79,14 +79,15 @@ var education = {"schools":[
                			"datesWorked": "January 2014 - April 2014",
                			"description": "Developed a tool to scrape app info from website, exports results to RDF and displays it in GUI. "+
                                    "JSoup for scraping, Jena for RDF creation, JavaFX for GUI",
-               			"images": ["images/fry.jpg"],
+               			"images": ["https://raw.githubusercontent.com/xingyz/google_app_crawler_analyzer/master/images/Homepage.png",
+                               "https://raw.githubusercontent.com/xingyz/google_app_crawler_analyzer/master/images/graph.png"],
                			"url": ""
                		},
                		{
                			"title": "My Command Line Tool",
                			"datesWorked": "October 2015",
                			"description": "Created a cmd tool that supports multiple functions, such as news, weather to kill my time without opening browser. Expect to add more functions.. ",
-               			"images": ["images/fry.jpg"],
+               			"images": ["https://raw.githubusercontent.com/xingyz/trendlines/master/images/news_screen.png"],
                			"url": ""
                		},
                		{

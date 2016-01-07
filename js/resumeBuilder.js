@@ -95,7 +95,7 @@ var education = {"schools":[
                			"datesWorked": "September 2015",
                			"description": "Created a small web app when I learnt Flask Framework. It registers " +
                                   "user's click time into database using Sqlalchemy, displays the most up to date info across all browsers using Socketio. ",
-               			"images": ["images/fry.jpg"],
+               			"images": ["https://raw.githubusercontent.com/xingyz/flask_thebutton/master/images/index.png"],
                			"url": ""
                		}
                	]

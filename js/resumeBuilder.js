@@ -10,14 +10,14 @@ var skills = [
               "Knowledge       Data Structures | OOP Design Patterns | Testing | Computer Networks | Data Science",
             ];
 var bio = {"name":"Xingyu Zhou",
-           "role":"Software Developer & Graduate Student In CS",
+           "role":"Software developer & Grad Student in CS",
            "contacts":{
                 "email":"ryan.zxy@gmail.com",
                 "github":"https://github.com/xingyz",
                 "linkedin": '<a href="https://ca.linkedin.com/pub/xingyu-ryan-zhou/46/809/46b" style="text-decoration:none;display:inline"><span style="font: 90% Arial,sans-serif; font-weight:bolder; color:#ffffff;">Xingyu\'s Profile</span></a>',
                 "location":"Ottawa, Canada<span style='color:#E05151'>||</span>Chengdu, China",
            },
-           "welcome_message":"It is best to learn wisdom by the experience of others",
+           "welcome_message":"Interests: Web application development, Machine Learning, Cloud technologies, Distributed databases",
            "skills":skills,
            "biopic":"https://raw.githubusercontent.com/udacity/frontend-nanodegree-resume/master/images/fry.jpg"
           }
@@ -114,6 +114,7 @@ formattedContactInfo.push(HTMLlocation.replace("%data%", bio.contacts.location))
 $("#header").prepend(formattedRole);
 $("#header").prepend(formattedName);
 $("#header").append(formattedBioPic);
+$("#header").append(formattedWelcomeMsg);
 
 if(bio.skills.length > 0){
   $("#header").append(HTMLskillsStart);

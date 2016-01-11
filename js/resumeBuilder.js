@@ -96,6 +96,16 @@ var education = {"schools":[
                			"description": "Created a small web app when I learnt Flask Framework. It registers " +
                                   "user's click time into database using Sqlalchemy, displays the most up to date info across all browsers using Socketio. ",
                			"images": ["https://raw.githubusercontent.com/xingyz/flask_thebutton/master/images/index.png"],
+               			"url": "https://github.com/xingyz/flask_thebutton"
+               		},
+                  {
+               			"title": "Node.js-mypackages",
+               			"datesWorked": "September 2014",
+               			"description": "Developed a small web app and Rest API to register courier tracking info. I built this  " +
+                                  "project to learn the express.js framework of Node.js as well as Mongodb. It uses an external API "+
+                                  "to fetch latest tracking info, and parsed it into our document-based database.",
+               			"images": ["https://raw.githubusercontent.com/xingyz/node-myPackages/master/images/overview.png",
+                              "https://raw.githubusercontent.com/xingyz/node-myPackages/master/images/details.png"],
                			"url": ""
                		}
                	]

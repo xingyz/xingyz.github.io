@@ -4,10 +4,10 @@ This is empty on purpose! Your code to build the resume will go here.
 var skills = [
               "Java                  Certified Java programmer | web application | web services | desktop app | web scraping  ",
               "Python              Industry experience | web application | data analysis | commandline tool | api",
-              "Javascript        Industry experience | web application | jQuery| angularjs | node.js",
+              "Javascript        Industry experience | web application | jQuery| angular| angular2 | typescript| node.js",
               "C++                    Academic projects | multithreads/multicore | information retrival | data communication",
-              "Database          SQL | ORM | MySQL | mongodb",
-              "Knowledge       Data Structures | OOP Design Patterns | Testing | Computer Networks | Data Science",
+              "Database          SQL | ORM | MySQL | SQL Server | mongodb",
+              "Knowledge       Data Structures | OOP Design Patterns | Data Science(ML, NLP, Visualization) | Testing | Computer Networks ",
             ];
 var bio = {"name":"Xingyu Zhou",
            "role":"Software developer & Grad Student in CS",
@@ -17,12 +17,20 @@ var bio = {"name":"Xingyu Zhou",
                 "linkedin": '<a href="https://ca.linkedin.com/pub/xingyu-ryan-zhou/46/809/46b" style="text-decoration:none;display:inline"><span style="font: 90% Arial,sans-serif; font-weight:bolder; color:#ffffff;">Xingyu\'s Profile</span></a>',
                 "location":"Ottawa, Canada<span style='color:#E05151'>||</span>Chengdu, China",
            },
-           "welcome_message":"Interests: Web application development, Machine Learning, Cloud technologies, Distributed databases",
+           "welcome_message":"Interests: Web application, Data Science",
            "skills":skills,
            "biopic":"https://raw.githubusercontent.com/udacity/frontend-nanodegree-resume/master/images/fry.jpg"
           }
 
 var work = {"jobs":[
+			{
+              "employer":"Esri",
+              "title":"Software Engineer Intern",
+              "location":"Ottawa,Ontario",
+              "dates":"2016.05-Present",
+              "description":"Esri Ottawa R&D center focuses on Location Analytics products of Esri. More specifically, as an intern "+
+              "I am learning to add basic BI functionalities to ArcGIS."
+            },
             {
               "employer":"Datacats",
               "title":"Software Developer",
@@ -47,7 +55,7 @@ var education = {"schools":[
                   {"name":"University of Ottawa",
                    "location":"Ottawa,Ontario",
                    "degree":"Master of Computer Science",
-                   "GPA":"10/10",
+                   "GPA":"10.0/10.0",
                    "awards":["Admission Scholarship"],
                    "majors":["Computer Science"],
                    "dates":"2015.09-Present",
@@ -74,6 +82,15 @@ var education = {"schools":[
                };
  var projects = {
                	"projects": [
+               		{
+               			"title": "A Simple Data Visualization Tool",
+               			"datesWorked": "May 2016 - Present",
+               			"description": "A project in collaboration with a California startup called Raw Data Technologies. "+
+               			"The main idea is to create a tool that enables users to easily visualize data from various sql and nosql"+
+               			" sources, and create a user friendly UI",
+               			"images": [],
+               			"url": ""
+               		},
                		{
                			"title": "Google Play App Crawling & Analysis Tool",
                			"datesWorked": "January 2014 - April 2014",
